@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.unirfp.ae_1"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.unirfp.ae_1"

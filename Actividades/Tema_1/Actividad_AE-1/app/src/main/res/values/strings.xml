@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">AE-1</string>
+    <string name="salario_bruto">Salario bruto</string>
+    <string name="numero_de_hijos">Numero de hijos</string>
+    <string name="numero_de_pagas">Numero de pagas</string>
+    <string name="edad">Edad</string>
+    <string name="grupo_profesional">Grupo profesional</string>
+    <string name="grado_invalidez">Grado de invalidez</string>
+    <string name="estado_civil">Estado civil</string>
+    <string name="usuario">Usuario</string>
+    <string name="password">Password</string>
+    <string name="enviar">Enviar</string>
+
+
+
+
+
+
+
+</resources>
