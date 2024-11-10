@@ -1,20 +1,30 @@
 <resources>
     <string name="app_name">AE-1</string>
-    <string name="salario_bruto">Salario bruto</string>
-    <string name="numero_de_hijos">Numero de hijos</string>
-    <string name="numero_de_pagas">Numero de pagas</string>
-    <string name="edad">Edad</string>
-    <string name="grupo_profesional">Grupo profesional</string>
-    <string name="grado_invalidez">Grado de invalidez</string>
-    <string name="estado_civil">Estado civil</string>
-    <string name="usuario">Usuario</string>
-    <string name="password">Password</string>
+      <string name="usuario">Usuario</string>
+   <string name="calcular">Calcular</string>
     <string name="enviar">Enviar</string>
-
-
-
-
-
+   <string name="log_in">LOG IN</string>
+    <string name="nombre_de_usuario">Nombre de usuario</string>
+    <string name="hint_user">Introduzca un email</string>
+    <string name="password">Contraseña</string>
+    <string name="hint_password">Introduzca una contraseña</string>
+    <string name="result_login_text">Se ha logueado correctamente</string>
+    <string name="hint_invalidez">Introduzca grado</string>
+    <string name="hint_salario">Introduzca salario</string>
+    <string name="hint_hijos">Introduzca hijos</string>
+    <string name="hint_pagas">Introduzca pagas</string>
+    <string name="hint_edad">Introduzca edad</string>
+    <string name="hint_profesional">Introduzca grupo</string>
+    <string name="hint_estadocivil">Introduzca estado</string>
+    <string name="salario_bruto_anual">Salario Bruto Anual</string>
+    <string name="numero_de_pagas">Número de Pagas</string>
+    <string name="edad">Edad</string>
+    <string name="grupo_profesional">Grupo Profesional</string>
+    <string name="grado_de_discapacidad">Grado de Discapacidad (%)</string>
+    <string name="estado_civil">Estado Civil</string>
+    <string name="n_mero_de_hijos">Número de Hijos</string>
+    <string name="calcular_salario_neto">Calcular Salario Neto</string>
+    <string name="resultado">Resultado:</string>
 
 
 </resources>

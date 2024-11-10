@@ -1,4 +1,6 @@
-package com
+package com.unirfp.ae_1
+
+import java.io.Serializable
 
 data class Contribuyente(
     val salarioBruto: Double,
@@ -8,5 +10,4 @@ data class Contribuyente(
     val gradoInvalidez: Double,
     val estadoCivil: String,
     val numeroHijos: Int
-)
-
+) : Serializable
