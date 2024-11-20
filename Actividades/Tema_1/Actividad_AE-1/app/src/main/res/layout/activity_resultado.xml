@@ -3,27 +3,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/background"
     android:padding="16dp">
-
     <TextView
-        android:id="@+id/tvSalarioNeto"
-        android:layout_width="wrap_content"
+        android:id="@+id/etTitulo"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:padding="8dp" />
+        android:layout_marginTop="50dp"
+        android:text="@string/resultado"
+        android:textAlignment="center"
+        android:textColor="@color/texto"
+        android:textSize="18pt" />
+    <TextView
+        android:layout_marginTop="70dp"
+        android:id="@+id/tvSalarioNeto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/texto"
+        android:background="@color/backgroundtag"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tvDeduccionesTotales"
-        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:padding="8dp" />
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/texto"
+        android:background="@color/backgroundtag"
+        android:textSize="18sp" />
 
     <TextView
         android:id="@+id/tvIrpf"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:padding="8dp" />
+        android:layout_marginTop="20dp"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="@color/texto"
+        android:background="@color/backgroundtag"
+        android:textSize="18sp" />
 
 </LinearLayout>

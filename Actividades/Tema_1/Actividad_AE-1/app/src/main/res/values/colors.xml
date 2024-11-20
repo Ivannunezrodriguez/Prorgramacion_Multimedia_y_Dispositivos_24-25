@@ -2,6 +2,10 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="backgroundtag">#103C60</color>
-    <color name="background">#AAAAAAAA</color>
+    <color name="backgroundtag">#3DB0FC</color>
+    <color name="background">#022C7E</color>
+    <color name="button">#823DFC</color>
+    <color name="texto">#FFFFFFFF</color>
+    <color name="texto_hint">#15886D</color>
+<color name="liena_viewtext">#B425FA</color>
 </resources>

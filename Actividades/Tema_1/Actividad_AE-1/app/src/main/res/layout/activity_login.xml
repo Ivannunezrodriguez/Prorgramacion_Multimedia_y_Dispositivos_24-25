@@ -4,28 +4,54 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
+    android:background="@color/background"
     android:gravity="center">
+
+
+    <TextView
+        android:id="@+id/etTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/titulo_log"
+        android:textAlignment="center"
+        android:textColor="@color/texto"
+        android:textSize="18pt" />
 
     <EditText
         android:id="@+id/etUsername"
-        android:autofillHints=""
-        android:hint="@string/usuario"
+android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="text" />
+        android:autofillHints=""
+        android:hint="@string/usuario"
+        android:textColorHint="@color/texto_hint"
+        android:inputType="text"
+android:backgroundTint="@color/liena_viewtext"
+        android:textColor="@color/texto"
+        android:textAlignment="center" />
 
     <EditText
         android:id="@+id/etPassword"
-        android:autofillHints=""
-        android:hint="@string/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword" />
+        android:textColor="@color/texto"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:textColorHint="@color/texto_hint"
+        android:hint="@string/password"
+        android:backgroundTint="@color/liena_viewtext"
+        android:inputType="textPassword"
+        android:textAlignment="center" />
 
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/enviar"
-        android:layout_gravity="center" />
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+
+        android:textColor="@color/texto" />
+
 </LinearLayout>

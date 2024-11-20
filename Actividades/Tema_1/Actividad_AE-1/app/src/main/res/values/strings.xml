@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">AE-1</string>
-      <string name="usuario">Usuario</string>
-   <string name="calcular">Calcular</string>
+    <string name="usuario">Usuario</string>
+    <string name="calcular">Calcular</string>
     <string name="enviar">Enviar</string>
-   <string name="log_in">LOG IN</string>
+    <string name="log_in">LOG IN</string>
     <string name="nombre_de_usuario">Nombre de usuario</string>
     <string name="hint_user">Introduzca un email</string>
     <string name="password">Contraseña</string>
@@ -25,6 +25,37 @@
     <string name="n_mero_de_hijos">Número de Hijos</string>
     <string name="calcular_salario_neto">Calcular Salario Neto</string>
     <string name="resultado">Resultado:</string>
+    <string name="titulo_log">Calculadora de Salario</string>
+    <string-array name="numero_pagas">
+        <item>N. pagas</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+    </string-array>
+
+    <string-array name="grupos_profesionales">
+        <item>G. profesional</item>
+        <item>A1</item>
+        <item>A2</item>
+        <item>B1</item>
+        <item>B2</item>
+    </string-array>
+
+    <string-array name="grados_discapacidad">
+        <item>G. discapacidad</item>
+        <item>0%</item>
+        <item>33%</item>
+        <item>65%</item>
+        <item>+ 65%</item>
+    </string-array>
+
+    <string-array name="estados_civiles">
+        <item>E. civil</item>
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Divorciado</item>
+        <item>Viudo</item>
+    </string-array>
 
 
 </resources>
