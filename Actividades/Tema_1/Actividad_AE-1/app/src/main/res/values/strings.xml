@@ -32,7 +32,6 @@
         <item>14</item>
         <item>16</item>
     </string-array>
-
     <string-array name="grupos_profesionales">
         <item>G. profesional</item>
         <item>A1</item>
@@ -40,7 +39,6 @@
         <item>B1</item>
         <item>B2</item>
     </string-array>
-
     <string-array name="grados_discapacidad">
         <item>G. discapacidad</item>
         <item>0%</item>
@@ -48,7 +46,6 @@
         <item>65%</item>
         <item>+ 65%</item>
     </string-array>
-
     <string-array name="estados_civiles">
         <item>E. civil</item>
         <item>Soltero</item>

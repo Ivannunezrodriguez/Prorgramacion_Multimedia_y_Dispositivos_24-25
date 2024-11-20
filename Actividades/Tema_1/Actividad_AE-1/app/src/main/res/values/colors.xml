@@ -7,5 +7,5 @@
     <color name="button">#823DFC</color>
     <color name="texto">#FFFFFFFF</color>
     <color name="texto_hint">#15886D</color>
-<color name="liena_viewtext">#B425FA</color>
+    <color name="liena_viewtext">#B425FA</color>
 </resources>

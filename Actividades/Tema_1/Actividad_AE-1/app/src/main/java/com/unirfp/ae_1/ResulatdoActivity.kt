@@ -21,8 +21,8 @@ class ResultadoActivity : AppCompatActivity() {
         val tvIrpf = findViewById<TextView>(R.id.tvIrpf)
 
         // Mostrar los resultados en los TextViews
-        tvSalarioNeto.text = "Salario Neto Anual: $salarioNeto"
-        tvDeduccionesTotales.text = "Deducciones Totales: $deduccionesTotales"
-        tvIrpf.text = "Retención de IRPF: $irpf"
+        tvSalarioNeto.text = "Salario Neto Anual:\n $salarioNeto"
+        tvDeduccionesTotales.text = "Deducciones Totales:\n $deduccionesTotales"
+        tvIrpf.text = "Retención de IRPF:\n $irpf"
     }
 }

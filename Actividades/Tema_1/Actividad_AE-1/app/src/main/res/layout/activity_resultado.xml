@@ -5,6 +5,7 @@
     android:orientation="vertical"
     android:background="@color/background"
     android:padding="16dp">
+
     <TextView
         android:id="@+id/etTitulo"
         android:layout_width="match_parent"
@@ -14,6 +15,7 @@
         android:textAlignment="center"
         android:textColor="@color/texto"
         android:textSize="18pt" />
+
     <TextView
         android:layout_marginTop="70dp"
         android:id="@+id/tvSalarioNeto"

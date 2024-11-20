@@ -7,7 +7,6 @@
     android:background="@color/background"
     android:gravity="center">
 
-
     <TextView
         android:id="@+id/etTitulo"
         android:layout_width="wrap_content"
@@ -20,14 +19,14 @@
 
     <EditText
         android:id="@+id/etUsername"
-android:layout_marginTop="50dp"
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:autofillHints=""
         android:hint="@string/usuario"
         android:textColorHint="@color/texto_hint"
         android:inputType="text"
-android:backgroundTint="@color/liena_viewtext"
+        android:backgroundTint="@color/liena_viewtext"
         android:textColor="@color/texto"
         android:textAlignment="center" />
 
@@ -51,7 +50,6 @@ android:backgroundTint="@color/liena_viewtext"
         android:text="@string/enviar"
         android:layout_marginBottom="50dp"
         android:layout_gravity="center"
-
         android:textColor="@color/texto" />
 
 </LinearLayout>

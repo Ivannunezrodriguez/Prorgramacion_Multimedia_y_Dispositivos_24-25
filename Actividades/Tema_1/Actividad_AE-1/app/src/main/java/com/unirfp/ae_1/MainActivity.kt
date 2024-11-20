@@ -2,7 +2,10 @@ package com.unirfp.ae_1
 
 import android.content.Intent
 import android.os.Bundle
-import android.widget.*
+import android.widget.ArrayAdapter
+import android.widget.Button
+import android.widget.EditText
+import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -64,7 +67,8 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
     }
-// se le da usabilidad a todos los spinner
+
+    // se le da usabilidad a todos los spinner
     private fun configurarSpinner(spinner: Spinner, arrayResource: Int) {
         val adapter = ArrayAdapter.createFromResource(
             this,
