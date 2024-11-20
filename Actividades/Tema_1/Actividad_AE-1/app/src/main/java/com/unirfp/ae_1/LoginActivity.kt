@@ -22,15 +22,10 @@ class LoginActivity : AppCompatActivity() {
             val password = passwordEditText.text.toString()
 
             // Credenciales ficticias
-            if (username == "admin" && password == "1234") {
-                // Ir a MainActivity si las credenciales son correctas
-                val intent = Intent(this, MainActivity::class.java)
-                startActivity(intent)
-                finish()
-            } else {
-                // Mostrar mensaje de error
-                Toast.makeText(this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show()
-            }
+            // Ir a MainActivity si las credenciales son correctas
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
     }
 }
