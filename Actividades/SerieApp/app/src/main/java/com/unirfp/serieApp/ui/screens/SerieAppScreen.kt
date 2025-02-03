@@ -1,4 +1,4 @@
-package com.unirfp.serieApp
+package com.unirfp.serieApp.ui.screens
 
 import androidx.compose.runtime.*
 import androidx.compose.foundation.layout.Box
@@ -18,6 +18,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import com.unirfp.serieApp.ui.viewmodel.SerieViewModel
+import com.unirfp.serieApp.data.model.Serie
 
 @Composable
 fun SerieAppScreen(viewModel: SerieViewModel) {

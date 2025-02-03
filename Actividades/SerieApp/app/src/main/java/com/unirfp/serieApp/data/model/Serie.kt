@@ -1,4 +1,4 @@
-package com.unirfp.serieApp
+package com.unirfp.serieApp.data.model
 
 import com.google.gson.annotations.SerializedName
 

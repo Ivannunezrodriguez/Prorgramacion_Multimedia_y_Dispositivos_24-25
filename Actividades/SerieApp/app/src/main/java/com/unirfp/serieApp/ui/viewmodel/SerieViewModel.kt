@@ -1,9 +1,11 @@
-package com.unirfp.serieApp
+package com.unirfp.serieApp.ui.viewmodel
 
 import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.unirfp.serieApp.data.model.Serie
+import com.unirfp.serieApp.data.network.SeriesApiService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import retrofit2.Retrofit

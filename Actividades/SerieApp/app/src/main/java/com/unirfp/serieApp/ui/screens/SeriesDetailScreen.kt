@@ -1,5 +1,4 @@
-package com.unirfp.serieApp
-import androidx.compose.foundation.ExperimentalFoundationApi
+package com.unirfp.serieApp.ui.screens
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -31,6 +30,7 @@ import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
+import com.unirfp.serieApp.data.model.Serie
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

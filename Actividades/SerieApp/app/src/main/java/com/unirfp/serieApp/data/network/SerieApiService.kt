@@ -1,5 +1,6 @@
-package com.unirfp.serieApp
+package com.unirfp.serieApp.data.network
 
+import com.unirfp.serieApp.data.model.Serie
 import retrofit2.Response
 import retrofit2.http.GET
 
