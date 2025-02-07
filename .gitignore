@@ -5,3 +5,5 @@
 /videos/*.rar
 /Actividades/My project/Library
 /Actividades/My project/Logs
+*.log
+*.meta

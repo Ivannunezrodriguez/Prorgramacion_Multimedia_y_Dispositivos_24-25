@@ -1,4 +1,5 @@
 package com.unirfp.serieApp.ui.screens
+
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -49,7 +50,6 @@ fun SeriesDetailScreen(serie: Serie, onBack: () -> Unit) {
                         )
                     }
                 },
-                // Podrías también cambiar el color de la app bar:
                 colors = TopAppBarDefaults.smallTopAppBarColors(
                     containerColor = Color(0xFF1F1F1F)
                 )

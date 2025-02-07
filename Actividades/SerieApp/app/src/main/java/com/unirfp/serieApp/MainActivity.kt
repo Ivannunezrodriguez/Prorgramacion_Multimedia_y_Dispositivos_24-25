@@ -15,7 +15,7 @@ class MainActivity : ComponentActivity() {
 
             val serieViewModel: SerieViewModel = viewModel()
 
-              SerieAppScreen(serieViewModel)
+            SerieAppScreen(serieViewModel)
         }
     }
 }
