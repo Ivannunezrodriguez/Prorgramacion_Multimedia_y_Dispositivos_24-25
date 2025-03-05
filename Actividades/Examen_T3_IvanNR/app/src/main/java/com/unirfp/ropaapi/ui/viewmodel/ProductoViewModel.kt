@@ -1,22 +1,23 @@
-package com.unirfp.ropaapi.ui.screens
+package com.unirfp.ropaapi.ui.viewmodel
 
-import com.unirfp.ropaapi.ui.viewmodel.RetrofitClient
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.State
 import com.unirfp.ropaapi.data.model.Producto
+import com.unirfp.ropaapi.data.network.RetrofitClient
 
 class ProductoViewModel : ViewModel() {
-    private val _productos = mutableStateOf<List<Producto>>(emptyList())
-    val productos: State<List<Producto>> = _productos
+    private val _productos = MutableStateFlow<List<Producto>>(emptyList())
+    val productos: StateFlow<List<Producto>> = _productos.asStateFlow()
 
-    private val _isLoading = mutableStateOf(true)
-    val isLoading: State<Boolean> = _isLoading
+    private val _isLoading = MutableStateFlow(true)
+    val isLoading: StateFlow<Boolean> = _isLoading.asStateFlow()
 
-    private val _errorMessage = mutableStateOf<String?>(null)
-    val errorMessage: State<String?> = _errorMessage
+    private val _errorMessage = MutableStateFlow<String?>(null)
+    val errorMessage: StateFlow<String?> = _errorMessage.asStateFlow()
 
     init {
         fetchProductos()

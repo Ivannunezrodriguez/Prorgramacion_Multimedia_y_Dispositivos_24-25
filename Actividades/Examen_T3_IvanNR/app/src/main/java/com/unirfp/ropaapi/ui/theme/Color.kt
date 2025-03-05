@@ -1,4 +1,4 @@
-package com.unirfp.serieApp.ui.theme
+package com.unirfp.ropaapi.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

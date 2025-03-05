@@ -1,6 +1,5 @@
-package com.unirfp.ropaapi.ui.viewmodel
+package com.unirfp.ropaapi.data.network
 
-import com.unirfp.ropaapi.data.network.ProductoApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

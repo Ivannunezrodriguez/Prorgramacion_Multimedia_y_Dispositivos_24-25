@@ -6,12 +6,14 @@ import androidx.compose.material3.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
+import com.unirfp.ropaapi.data.model.Producto
+import com.unirfp.ropaapi.ui.viewmodel.ProductoViewModel
 
 @Composable
 fun ProductoAppScreen(viewModel: ProductoViewModel) {
-    val productos = viewModel.productos.value
-    val isLoading = viewModel.isLoading.value
-    val error = viewModel.errorMessage.value
+    val productos = viewModel.productos.collectAsState().value
+    val isLoading = viewModel.isLoading.collectAsState().value
+    val error = viewModel.errorMessage.collectAsState().value
 
     var selectedProducto by remember { mutableStateOf<Producto?>(null) }
 
@@ -22,6 +24,9 @@ fun ProductoAppScreen(viewModel: ProductoViewModel) {
         else -> ProductoDetailScreen(producto = selectedProducto!!, onBack = { selectedProducto = null })
     }
 }
+
+/* LoadingView y ErrorView */
+
 @Composable
 fun LoadingView() {
     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {

@@ -1,4 +1,4 @@
-package com.unirfp.serieApp.ui.theme
+package com.unirfp.ropaapi.ui.theme
 
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
